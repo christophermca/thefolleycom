@@ -1,0 +1,18 @@
+# Use PHP54 Single php.ini as default
+AddHandler application/x-httpd-php54s .php
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName thefolley.com
+AuthUserFile /home/thefoll1/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/thefoll1/public_html/_vti_pvt/service.grp

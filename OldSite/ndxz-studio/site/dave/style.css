@@ -1,0 +1,168 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Gregory Cadar
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-size: 12px;
+	font-family: monospace;
+	background: #EFEEDC;
+	position: relative;
+	
+}
+
+body.section-1 { }
+	 
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none; color: #737543; }
+a:active { text-decoration: none; color: #851B1D; }
+a:visited { text-decoration: none; color: #000;}
+a:hover { text-decoration: underline; }
+
+.nav, .nav a {
+	color: #851B1D;
+	
+	}
+	
+a img { border: none; }
+
+/** #wrap is not used yet*/
+
+#wrap {
+	position: relative;
+	left: 10%;
+	right:10%;
+	top: 5%;
+	bottom: 5%;
+	}
+
+#menu {
+	
+	padding: 10px;
+    width: 150px;
+    overflow: auto;
+	position: fixed;
+    height: 100%;
+	background-color: #E4E3BC;
+	top: 0px;
+}
+.undercon { 
+	font-family: georgia, serif;
+	font-size: 18px;
+	line-height: 26px;
+	color: #66665E;
+	position: absolute; left: 100px; top: 133px;
+	width: auto;
+	max-width: 550px; 
+	margin: 10px;
+	padding: 35px;
+	background-color: #E4E3BC;
+}
+#menu ul {
+	line-height: 16px;
+	list-style: none;
+	margin: 0 0 16px 0;
+}
+
+#menu ul li.section-title { 
+	font-size: 13px;
+	font-weight: none;
+	font-style: oblique;
+	line-height: 20px;
+	color: #C6A518; 
+	
+	}
+	#menu ul li.active a {
+color:black;
+	}
+	
+/**content is in question*/
+
+#content {
+	
+	padding: 10px 10px 10px 0px;
+	width: 800px;
+	
+	position: relative;
+	left: 20%;
+    height: 600px;
+    margin: 0 0 0 0px;
+    top: 20px; 
+	
+}
+
+.container {
+	
+	position: relative;
+    padding: 5px 5px 25px 0px;
+  
+    }
+
+#content p { 	
+	position: relative;
+	float: clear;
+	font-size: 12px;
+	font-family: georgia, sans-serif;
+	line-height: 16px;
+	color: #66665E;
+	width: 310px; 
+	margin: 0 0 12px 12px; }
+
+/** HEADLINE for work goes here, think about making it the lighter biege, efeedc*/
+
+p {
+    margin: 0 0 12px 0;
+   
+    
+}
+
+h1 { font-size: 18px;
+	line-height: 22px;
+	color: #737543;
+ }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+
+
+#img-container	{ 
+	margin: 0; 
+	padding: 10px;  }
+
+/** Description for work goes here, think about making it the lighter biege, efeedc*/
+
+#img-container p	{ 
+	width: 400px; 
+	margin: 0; 
+	padding: 0 0 12px 0;  
+	font-size: 12px;
+	font-family: courier, sans-serif;
+	
+	
+	
+	}
+	
+/** does not work yet!!!!
+	
+.mtitle {
+	color: black;
+
+}
+
+.mcaption {
+
+color: black;
+
+}*/
+#once { clear: left; }

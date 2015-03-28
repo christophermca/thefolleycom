@@ -1,0 +1,18 @@
+# -FrontPage-
+
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymlinks
+Options +SymLinksIfOwnerMatch
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName thefolley.com
+AuthUserFile /home/thefoll1/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/thefoll1/public_html/_vti_pvt/service.grp

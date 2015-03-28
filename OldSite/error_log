@@ -1,8 +1,0 @@
-[20-Mar-2012 07:18:57] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 87
-[20-Mar-2012 07:18:57] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 232
-[20-Mar-2012 07:18:58] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 87
-[20-Mar-2012 07:18:58] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 232
-[21-Mar-2012 09:40:24] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 87
-[21-Mar-2012 09:40:24] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 232
-[21-Mar-2012 09:40:24] PHP Warning:  parse_url(http://) [<a href='function.parse-url'>function.parse-url</a>]: Unable to parse URL in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 87
-[21-Mar-2012 09:40:24] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty delimiter in /home/thefoll1/public_html/ndxz-studio/lib/statistics.php on line 232
